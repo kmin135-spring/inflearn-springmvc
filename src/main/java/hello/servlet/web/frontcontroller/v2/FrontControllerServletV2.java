@@ -18,7 +18,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-// /front-controller/v1 를 포함한 하위 모든 요청을 받음
+// /front-controller/v2 를 포함한 하위 모든 요청을 받음
 @WebServlet(name = "frontControllerServletV2", value = "/front-controller/v2/*")
 public class FrontControllerServletV2 extends HttpServlet {
 
