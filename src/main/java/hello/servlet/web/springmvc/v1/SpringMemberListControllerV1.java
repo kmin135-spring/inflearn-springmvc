@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
 @Controller
-public class SpringMemberListController {
+public class SpringMemberListControllerV1 {
     private MemberRepository memberRepo = MemberRepository.getInstance();
 
 
